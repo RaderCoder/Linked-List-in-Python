@@ -11,3 +11,9 @@ if __name__ == "__main__":
     print(New_list.find_value(5))
 
     print(New_list.find_value(4))
+
+    New_list.delete_node(4)
+
+    New_list.delete_node(3)
+
+    print(New_list)
